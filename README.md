@@ -1,10 +1,13 @@
-# Gemini Terminal Chat
+# Gemini Interactive Chat (Streamlit)
 
-A multi-turn Python CLI chat program powered by Google's `gemini-3.6-flash` model.
+A real-time, multi-turn AI chat application built with Streamlit and powered by Google's `gemini-3.6-flash` model using token-by-token streaming.
 
 ## Features
-- Persistent context across chat turns using the Gemini Chat interface.
-- Secure API key management via environment variables (`python-dotenv`).
+
+* Multi-turn conversational memory powered by Google GenAI.
+* Real-time response streaming for near-zero perceived latency.
+* Clean web UI built with Streamlit chat components.
+* Environment-based API key handling for secure configuration.
 
 ## Setup
 1. Clone this repository:
