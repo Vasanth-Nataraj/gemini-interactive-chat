@@ -7,7 +7,11 @@ A multi-turn Python CLI chat program powered by Google's `gemini-3.6-flash` mode
 - Secure API key management via environment variables (`python-dotenv`).
 
 ## Setup
-1. Clone this repository.
+1. Clone this repository:
+    ```bash
+   git clone [https://github.com/Vasanth-Nataraj/gemini-terminal-chat.git](https://github.com/Vasanth-Nataraj/gemini-terminal-chat.git)
+   cd gemini-terminal-chat
+   ```
 2. Create and activate a Python virtual environment:
    ```bash
    python -m venv my_env
@@ -23,5 +27,5 @@ A multi-turn Python CLI chat program powered by Google's `gemini-3.6-flash` mode
     ```
 5. Run the application:
     ```bash
-    python AI.py
+    streamlit run AI.py
     ```
